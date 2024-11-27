@@ -13,7 +13,7 @@ body {
 
 /* Set the background image for the whole page */
 body {
-    background-image: url('../Screenshot\ from\ 2024-11-27\ 13-03-05.png');
+    background-image: url('Screenshot\ from\ 2024-11-27\ 13-03-05.png');
     background-size: cover; 
     background-position: center;
     background-attachment: fixed; 
