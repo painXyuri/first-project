@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahia Khidour</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include Font Awesome for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <a class="navbar-brand" href="#">Welcome to h7x Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section with background image -->
+    <div class="jumbotron text-center" style="background-color: rgba(2, 1, 16, 0.5); padding-top: 100px; padding-bottom: 100px; height: 100vh;">
+        <h1 class="display-4">Welcome to Yahia Khidour Hacking house</h1>
+        <p class="lead"><h1>h7x</h1></p>
+    </div>
+
+    <!-- Content Section with Grid Layout (will appear when you scroll down) -->
+    <div class="container mt-5 content">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="">
+                    <img src="../Screenshot from 2024-11-27 12-50-38.png" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Yahia</h5>
+                        <p class="card-tex"> <!--SHDISHD--> </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="">
+                    <img src="../Animated Juice Wrld Wallpapers - Top Free Animated Juice Wrld  618.jpeg" class="card-img-top" alt="Image">
+                    <div class="card-body">
+                        <h5 class="card-title">999</h5>
+                        <p class="card-text"> <!--SHDISHD--> </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="">
+                    <img src="../Screenshot from 2024-11-27 14-28-21.png" class="card-img-top" alt="Image">
+                    <div class="">
+                        <h5 class="card-title">h7x</h5>
+                        <p class="card-text"> <!--SHDISHD--> </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yahyayahyayahyaya/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/h7x_____/" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.linkedin.com/in/yahia-khidour-9254a0256/?originalSubdomain=dz" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/painXyuri" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Scroll Detection Script -->
+    <script>
+        function isElementInView(el) {
+            const rect = el.getBoundingClientRect();
+            return rect.top <= window.innerHeight && rect.bottom >= 0;
+        }
+
+        window.addEventListener('scroll', function() {
+            const contentSection = document.querySelector('.content');
+            if (isElementInView(contentSection)) {
+                contentSection.classList.add('visible');
+            }
+        });
+    </script>
+</body>
+</html>
